@@ -32,15 +32,14 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><%= link_to "View Profile", user_path(current_user), class: "dropdown-item" %></li>
                 <li><%= link_to "Edit Profile", edit_user_path(current_user), class: "dropdown-item" %></li>
+                <li><%= link_to "Delete Profile", user_path(current_user), class: "dropdown-item text-danger", data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %></li>
+
               </ul>
             </li>
           <% end %>
 
 
           <% if logged_in? %>
-            <li class="nav-item">
-              <%= link_to current_user.username , user_path(current_user), class: "nav-link" %>
-            </li>
             <li class="nav-item">
               <%= link_to 'Logout' , logout_path, class: "nav-link", data: { turbo_method: :delete}%>
             </li>
