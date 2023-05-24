@@ -1,8 +1,6 @@
-# README
+## Alpha-Blog
 
 Steps are necessary to get the application up and running.
-
-Things to cover:
 
 - Ruby version: "3.1.3"
 
@@ -20,13 +18,13 @@ Things to cover:
   rails db:migrate
 ```
 
-- How to run the test suite
+- How to run the server
 
 ```
   rails server
 ```
 
-Resource
+##Resource
 
 - Users - create users table and model - add validations
   - username must be present and unique, min 3 max 25
@@ -37,7 +35,7 @@ Associations
 - One-to-many
   between users and articles
 - Many-to-many
-  between articles and categories
+  between articles and article-categories
 
 REST for users
 
