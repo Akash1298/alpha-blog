@@ -24,7 +24,7 @@ Steps are necessary to get the application up and running.
   rails server
 ```
 
-##Resource
+## Resource
 
 - Users - create users table and model - add validations
   - username must be present and unique, min 3 max 25
