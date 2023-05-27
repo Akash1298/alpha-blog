@@ -26,9 +26,11 @@
 
 ## Resource
 
-- Users - create users table and model - add validations
-  - username must be present and unique, min 3 max 25.
-  - email address must be present and unique, max 105 \* email must be valid email format, check with email regex.
+### Users
+
+- create users table and model - add validations
+- username must be present and unique, min 3 max 25.
+- email address must be present and unique, max 105 \* email must be valid email format, check with email regex.
 
 ### Associations
 
@@ -37,17 +39,15 @@
 - Many-to-many
   between articles and article-categories
 
-### REST for users
-
-Authentication
+### Authentication
 
 - Login using secure password
 
-Restriction of actions
+### Restriction of actions
 
 - Based on logged in/logged out state
 
-Security
+### Security
 
 - Admin user functionality and access level
 
@@ -61,8 +61,3 @@ Security
 <img width="360" alt="image" src="https://github.com/Akash1298/alpha-blog/assets/65884746/8831c32a-67d3-4b35-bc2d-e90cf35a5852">
 <img width="360" alt="image" src="https://github.com/Akash1298/alpha-blog/assets/65884746/c157a6ab-bdc5-4635-a390-612082f7cea1">
 <img width="360" alt="image" src="https://github.com/Akash1298/alpha-blog/assets/65884746/af82ce26-86f3-48b3-844f-ca765da81244">
-
-
-
-
-
